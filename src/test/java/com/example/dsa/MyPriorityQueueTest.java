@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,8 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class MyTreeSetTest {
-    MyTreeSet<Integer> myTreeSet;
+class MyPriorityQueueTest {
+    MyPriorityQueue<Integer> myPriorityQueue;
 
     @BeforeAll
     static void initAll() {
@@ -18,8 +18,8 @@ class MyTreeSetTest {
 
     @BeforeEach
     void init() {
-        myTreeSet = new MyTreeSet<>();
-        myTreeSet.clear();
+        myPriorityQueue = new MyPriorityQueue<>();
+        myPriorityQueue.clear();
     }
 
     @Test

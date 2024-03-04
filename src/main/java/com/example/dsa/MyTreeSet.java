@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 /**
  * A tree set data structure built upon a tree map.

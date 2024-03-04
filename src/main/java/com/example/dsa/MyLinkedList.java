@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 /**
  * A singly linked list data structure.

@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 /**
  * Interface which defines methods for queues.

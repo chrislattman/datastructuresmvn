@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 /**
  * A stack data structure (LIFO).

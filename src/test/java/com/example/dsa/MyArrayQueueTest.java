@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 import static org.junit.jupiter.api.Assertions.*;
 

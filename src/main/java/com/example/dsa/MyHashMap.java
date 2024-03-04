@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 /**
  * A hash map data structure utilizing quadratic probing (open addressing). Also

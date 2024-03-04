@@ -4,4 +4,4 @@
  *
  * @version 1.0
  */
-package com.datastructures.dsa;
+package com.example.dsa;

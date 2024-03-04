@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,8 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class MyLinkedListTest {
-    MyLinkedList<Integer> myLinkedList;
+class MyTreeMapTest {
+    MyTreeMap<Integer, Integer> myTreeMap;
 
     @BeforeAll
     static void initAll() {
@@ -18,7 +18,7 @@ class MyLinkedListTest {
 
     @BeforeEach
     void init() {
-        myLinkedList = new MyLinkedList<>();
+        myTreeMap = new MyTreeMap<>();
     }
 
     @Test

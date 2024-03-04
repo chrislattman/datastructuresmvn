@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,8 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class MyTreeMapTest {
-    MyTreeMap<Integer, Integer> myTreeMap;
+class MyHashMapTest {
+    MyHashMap<Integer, Integer> myHashMap;
 
     @BeforeAll
     static void initAll() {
@@ -18,7 +18,8 @@ class MyTreeMapTest {
 
     @BeforeEach
     void init() {
-        myTreeMap = new MyTreeMap<>();
+        myHashMap = new MyHashMap<>();
+        myHashMap.clear();
     }
 
     @Test

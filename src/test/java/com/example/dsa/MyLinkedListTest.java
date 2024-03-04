@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,8 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class MyHashSetTest {
-    MyHashSet<Integer> myHashSet;
+class MyLinkedListTest {
+    MyLinkedList<Integer> myLinkedList;
 
     @BeforeAll
     static void initAll() {
@@ -18,8 +18,7 @@ class MyHashSetTest {
 
     @BeforeEach
     void init() {
-        myHashSet = new MyHashSet<>();
-        myHashSet.clear();
+        myLinkedList = new MyLinkedList<>();
     }
 
     @Test

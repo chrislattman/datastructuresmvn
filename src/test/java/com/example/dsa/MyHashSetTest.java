@@ -1,4 +1,4 @@
-package com.datastructures.dsa;
+package com.example.dsa;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -8,8 +8,8 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class MyPriorityQueueTest {
-    MyPriorityQueue<Integer> myPriorityQueue;
+class MyHashSetTest {
+    MyHashSet<Integer> myHashSet;
 
     @BeforeAll
     static void initAll() {
@@ -18,8 +18,8 @@ class MyPriorityQueueTest {
 
     @BeforeEach
     void init() {
-        myPriorityQueue = new MyPriorityQueue<>();
-        myPriorityQueue.clear();
+        myHashSet = new MyHashSet<>();
+        myHashSet.clear();
     }
 
     @Test
