@@ -1,6 +1,6 @@
 # Data Structures Maven Project
 
-This project is a Java-only version of [DataStructures](https://github.com/chrislattman/DataStructures) that uses [Maven](https://maven.apache.org/), a popular build automation tool for Java projects maintained by the Apache Foundation. It supercedes [Ant](https://ant.apache.org/), which is also maintained by Apache.
+This project is a Java-only version of [DataStructures](https://github.com/chrislattman/DataStructures) that uses [Maven](https://maven.apache.org/), a popular build automation tool for Java projects maintained by the Apache Software Foundation. It supercedes [Ant](https://ant.apache.org/), which is also maintained by Apache.
 
 Maven makes the software build lifecycle less error-prone. Dependency management is simplified since it uses the [Maven Central Repository](https://repo.maven.apache.org/maven2/), the de facto repository for Java projects, comparable to PyPI for Python projects and npm for JavaScript projects.
 
