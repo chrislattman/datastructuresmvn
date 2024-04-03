@@ -37,5 +37,7 @@ Maven commands defined by this project:
 - `mvn javadoc:javadoc` generates Javadoc documentation of the source code
 - `mvn site` builds a static website for the project, including the Checkstyle and Javadoc pages
 - `mvn clean` deletes the `target` folder
+- `mvn versions:use-latest-releases` updates all dependency version numbers in `pom.xml`
+    - Run `mvn dependency:resolve` to install those updated dependencies
 
 Maven commands can be combined, e.g. `mvn clean test` forces a clean test run by deleting the `target` folder before running the unit tests.
